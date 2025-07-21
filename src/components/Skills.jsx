@@ -23,13 +23,13 @@ import shopify from '../assets/images/shopify.png';
 export default function Skills() {
   return (
     <motion.section
-      id="skills"
-      className="py-20 px-6 bg-white text-center"
-      initial={{ opacity: 0, scale: 0.95, y: 50 }}
-  whileInView={{ opacity: 1, scale: 1, y: 0 }}
-  transition={{ duration: 0.8, ease: 'easeOut' }}
-  viewport={{ once: true, amount: 0.3 }}
-    >
+  id="skills"
+  className="py-20 px-6 bg-white text-center"
+  initial={{ opacity: 1, scale: 1, y: 0 }}
+  animate={{ opacity: 1, scale: 1, y: 0 }}
+  transition={{ duration: 0 }}
+>
+
       <div className="inline-block border-4 border-purple-600 px-10 py-2 mb-12">
         <h2 className="text-xl font-bold tracking-widest text-purple-600">SKILLS</h2>
       </div>
