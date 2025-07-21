@@ -58,7 +58,7 @@ export default function Contact() {
       ENVOYER
     </button>
     <a
-  href="/public/sydney CV.pdf"
+  href="/sydney%20CV.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="px-8 py-3 border-2 border-purple-600 text-purple-600 rounded-lg"
